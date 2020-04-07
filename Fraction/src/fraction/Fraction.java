@@ -48,21 +48,23 @@ public class Fraction {
 	}
 	
 	//methods
-	public int greatestCommonDivisor() {
-		int a = getNumerator();
+
+        public int[] greatestCommonDivisor() {
+                int a = getNumerator();
+		if (a < 0)	a = -1*a;
 		int b = getDenominator();
 		int temp = 0;
-		
-		if (a == b) return a;
-		
 		
 		while(b > 0) {
 			temp = b;
 			b = a%b;
 			a = temp;
 		}
-		return a;
+		fraction[0] = fraction[0]/a;
+		fraction[1] = fraction[1]/a;
+                return fraction;
 	}
+	
         
 
 }
