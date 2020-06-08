@@ -1,0 +1,12 @@
+Audi-R8 2
+Batch-brew 5
+Hamburger 0
+Hrnek 3
+Iphone-7 7
+Klávesnice 5
+Kolo 6
+power-banka 4
+Samsung-S8 4
+Skoda-octavia 1
+Tužka 150
+Čaj 45
